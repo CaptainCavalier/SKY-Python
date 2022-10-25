@@ -19,3 +19,11 @@ print(firstName + surname)
 print(firstName, surname)
 print("Anthony")
 print(f"firstName: {firstName} second: {surname}")
+
+height = int(input("Give me the height"))
+length = int(input("Give me the Length"))
+
+area = height * length
+print(f"the area of the shape is {area} cm2")
+
+
