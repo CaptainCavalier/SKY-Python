@@ -387,6 +387,114 @@ mylist = [15,22,83,14,53,6,97]
 
 
 
+# output = "Hi {}, you are {} years old".format("Ant", 41)
+# print(output)
+
+#
+# planets = {
+#     'Mercury': 57.91,
+#     'Venus': 108.2,
+#     'Earth': 149.597870,
+#     'Mars': 227.94
+# }
+#
+# for i, key in enumerate(planets.keys(), 1):
+#     print("{:2d} {:<10s} {:06.2f} GM".format(i, key, planets[key]))
+#
+# print(planets['Venus'])
+#
+#
+# text = 'hello'
+#
+# print(text.capitalize())
+# print(text.upper())
+# print('<'+text.center(20)+'>')
+# print('<'+"Hello World".center(20)+'>')
+# print('<'+text.ljust(16)+'>')
+# print('<'+text.rjust(16)+'>')
+# print('<'+text.zfill(12)+'>')
+
+# print(f"Planets contains {len(planets)} Planets")
+
+
+# name = ["Tom", "Harry", "Jane", "Mary"]
+# suffix = ["st", "nd", "rd", "th"]
+#
+# n = 1
+# s = f"{str(n+1) + suffix[n]} of {len(name)} is {name[n]}"
+# print(s)
+
+
+# text = "the quick brown fox blah"
+# print(text[12])
+#
+# print(text[12:15])
+#
+# print(text[-7:-1])
+#
+# print(text[:15])
+# print(text[-7:])
+
+
+line = 'root::0:0:superuser:/root:/bin/sh'
+elems = line.split(':')
+
+# elems[0] = 'Avatar'
+# elems[4] = 'The Super-User'
+#
+# line = ':'.join(elems)
+#
+# print(elems)
+# print(line)
+# print(type(line))
+
+
+# Belgium = 'Belgium,10445852,Brussels,737966,Eurpope,1830,Euro,Catholicism,Dutch,French,German'
+# strlen = len(Belgium) # Dont need this idiot
+# elems = Belgium.split(',')
+# Belgium = ':'.join(elems)
+#
+# print("-" * strlen) # Literally print("-" * Belgium) wouldve done it
+# print(Belgium)
+#
+# print(int(elems[1]) + int(elems[3]))
+
+
+#
+# mynum = [45,55,65,35,76,3.14,4]
+# print(f" min: {min(mynum)}"
+#       f" max: {max(mynum)}"
+#       f" sum: {sum(mynum)}"
+#       f" ave: {sum(mynum)/len(mynum)}")
+#
+# mydict = {
+#     'Fred': 8,
+#     'Dave': 16,
+#     'Jim': 20
+# }
+# print(f"Min of myDict {min(mydict)}")
+# print(f"Max of myDict {max(mydict)}")
+#
+# a = 4
+# b = 6
+#
+# a, b = b, a
+# print(a, b)
+
+# one, two, three = range(3)
+# print(one, two, three)
+#
+# mytuple = 'a', 'b', 'c'
+# another = mytuple * 4
+# print(another)
+
+
+
+
+
+
+
+
 
 
 
